@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+.wapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+}
+.grid{
+    background-image: linear-gradient(0,#6d9cda,#3986eb);
+    width: 100%;
+    height: 130px;
+}
+.header{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header-search{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-search .logo{
+    left: 1;
+}
+.header-search .search-item{
+    left: 4;
+    height: 30px;
+    width: 450px;
+    background-color: white;
+    border-radius: 2px;
+}
+.header-search .cart{
+    left: 1;
+}
+.header-search .logo img{
+    width: 200px;
+    height: 60px;
+}
+.search-item .search input{
+    border: none;
+    padding: 6px 2px;
+}
+.header-search .search-icon{
+    margin-top: -26px;
+    margin-left: 410px;
+    border: none;
+    background-color: #80a2cf;
+    width: 27px;
+    height: 27px;
+    color: white;
+    border-radius: 5px;
+}
+.header-search .search-icon i{
+    padding: 5px 5px;
+}
+.header-search .cart{
+    color: white;
+    font-size: 25px;
+}
+.header-search .cart:hover{
+    scale: 1.2;
+}
+.header-search .search-icon:hover{
+    background-color: #357dd4;
+}
+.header-nav-bar{
+    height: 45px;
+}
+.header-nav-bar .navbar-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-nav-bar .navbar-list .navbar-item{
+    padding: 10px;
+    position: relative;
+}
+.header-nav-bar .navbar-list .navbar-item a{
+    color: white;
+    text-decoration: none;
+}
+.active{
+    background-color: rgb(1, 149, 149); 
+}
+.header-nav-bar .navbar-list .navbar-item:hover{
+    background-color: rgb(1, 149, 149);
+}
+.navbar-list1{
+    position: absolute;
+    list-style: none;
+    background-color: #6d9cda;
+    width: 215px;
+    padding: 0;
+    top: 100%;
+    margin-left: -10px;
+    display: none;
+    z-index: 3;
+}
+li.navbar-item1 {
+    padding-top: 10px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.header-nav-bar .navbar-list .navbar-item:hover .navbar-list1{
+    display: block;
+}
+li.navbar-item1:hover{
+    scale: 0.9;
+}
+
+

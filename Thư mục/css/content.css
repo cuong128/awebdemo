@@ -1,0 +1,147 @@
+.content{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* content1 */
+.content1{
+    margin-top: 10px;
+    width: 100%;
+    height: 480px;
+    background-color: white;
+}
+.content1-title{
+    width: 100%;
+    height: 170px;
+}
+.content1-title h3{
+    padding: 20px 0 0 20px;
+}
+.content1-title img{
+    width: 100%;
+}
+.product-list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 310px;
+}
+.product-item{
+    width: 20%;
+    border: 1px solid rgb(215, 215, 215);
+    position: relative;
+}
+.product-item:hover .product-img img{
+    scale: 1.2;
+}
+.product-img{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+.product-img img{
+    width: 80%;
+    padding-left: 20px;
+}
+.product-details{
+    padding: 15px;
+}
+.product-name{
+    font-size: 20px;
+}
+.product-price{
+    padding-top: 5px;
+    font-size: 20px;
+    color: red;
+}
+.product-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    top: 40px;
+    left: 5px;
+}
+.product-icon p{
+    margin: 0px;
+    padding: 10px 6px;
+    color: white;
+}
+/* content2 */
+.content2{
+    margin: 50px 0;
+    width: 100%;
+    height: 245px;
+    display: flex;
+}
+.content2 img{
+    width: 32%;
+    margin-right: 21px;
+}
+/* content3 */
+.content3{
+    margin: 50px 0;
+    width: 100%;
+    height: 670px;
+    background-color: white;
+}
+.content3-header-title{
+    width: 100%;
+    height: 60px;
+    background-color: #6d9cda;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.content3-title{
+    margin: 0;
+    list-style: none;
+    width: 70%;
+}
+.content3-navbar{
+    list-style: none;
+    display: flex;
+}
+.navbar-item{
+    padding-right: 10px;
+}
+.navbar-item a{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+/* content4 */
+.content4{
+    margin: 50px 0;
+    width: 100%;
+    height: 360px;
+    background-color: white;
+}
+/* contentend */
+.content-end{
+    margin: 50px 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(175, 190, 232);
+}
+.content-title{
+    text-align: center;
+    padding: 10px;
+}
+.content-list{
+    width: 100%;
+    display: flex;
+    margin-left: 14px;
+}
+.content-list .item{
+    width: 25%;
+}
+.content-list .item img{
+    width: 90%;
+}
+.content-list .item strong{
+    width: 25%;
+}
+
+
+
